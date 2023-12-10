@@ -78,7 +78,7 @@ COGS = [
 
 The application uses a Peewee ORM for database interactions, as shown in `./database.py`. Peewee is a simple, file based
 database that is not suitable for production use, but more than adequate for simple applications. To extend the
-database simply add your models to `./my-cog/models.py`. They will be automatically loaded and registered when you app
+database simply add your models to `./my-cog/models.py`. They will be automatically loaded and registered when the app
 is initialized.
 
 ```python
