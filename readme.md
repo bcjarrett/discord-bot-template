@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates a modular application structure using the concept of 'cogs', which are portable and
-compartmentalized parts of the app. Each cog represents a distinct piece of functionality, making the application easy
-to maintain and extend.
+This project is a simple discord bot template that makes use of `discord.ext.commands.Cog` to create portable 
+cogs or apps that can be easily managed as part of a larger bot design. Each cog represents a distinct piece 
+of functionality, making the application easy to maintain and extend.
 
 The application is Docker-ready, with a Dockerfile for building the Docker image and a docker-compose.yaml.
 
